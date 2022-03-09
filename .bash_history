@@ -182,3 +182,36 @@ bash lab2-1.sh 1 2 4
 nano lab2-1.sh
 bash lab2-1.sh 1 2 4
 nano lab2-1.sh
+bash lab2-1.sh 1 2 4
+nano lab2-1.sh
+bash lab2-1.sh 1 2 4
+nano lab2-1.sh
+bash lab2-1.sh 1 2 4
+nano lab2-1.sh
+fg
+bash lab2-1.sh 1 2 4
+bash lab2-1.sh 1 4 4
+bash lab2-1.sh 1 2 4
+nano lab2-1.sh
+bash lab2-1.sh 1 5 4
+nano lab2-1.sh
+bash lab2-1.sh 1 5 4
+nano lab2-1.sh
+bash lab2-1.sh 1 5 4
+bash lab2-1.sh 3 -14 -5
+nano lab2-1.sh
+bash lab2-1.sh 3 -14 -5
+nano lab2-1.sh
+bash lab2-1.sh 3 -14 -5
+nano lab2-1.sh
+bash lab2-1.sh 3 -14 -5
+git init
+git add .
+git commit -m "initial commit"
+git config --global user.email "skorobogatova.mm5910@gmail.com"
+git config --global user.name "TojeMneCiceorn"
+git config --global user.name "TojeMneCiceron"
+git commit -m "initial commit"
+git remote add origin https://github.com/TojeMneCiceron/unix-lab2.git
+git branch -M main
+git push -u origin main

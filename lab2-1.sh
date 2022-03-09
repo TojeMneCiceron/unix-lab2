@@ -10,7 +10,7 @@ d=$(echo "${b}*${b}-4*${a}*${c}" | bc -l)
 if [[ "$d" == "0" ]]; then
 	x=$(echo "scale=2; -${b}/2/${a}" | bc -l)
 	echo "Ответ: x = ${x}"
-elif (( $d > 0)); then
+elif [ $(echo "${d}>0" | bc) -eq 1 ]; then
 	s_d=$(echo "sqrt(${d})" | bc -l)
 #	echo "s_d = ${s_d}"
 	x1=$(echo "-1*${b}+${s_d}" | bc -l)
